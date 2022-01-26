@@ -1,0 +1,11 @@
+1. Kegunaan file .env :
+File .env berisi konfigurasi atau pengaturan yang ada di dalam project laravel,
+tujuannya adalah untuk memudahkan dalam mengubah pengaturan yang ingin disesuaikan dalam project aplikasi yang ingin dibuat dengan laravel.
+dengan file .env semua pengaturan yang ada di project laravel bisa ditampung hanya di dalam 1 file ini saja,
+misalnya jika ingin membuat pengaturan nama database, username, password, sampai konfigurasi email bisa dilakukan di file .env
+
+2. Kegunaan directory config :
+Directory config berisi konfigurasi yang hampir mirip dengan file .env yaitu menyimpan semua konfigurasi yang ada pada laravel,
+namun di directory config, konfigurasi nya terpisah-pisah menjadi beberapa buah file sesuai dengan masing-masing fungsi file tersebut,
+misalnya untuk konfigurasi database pada laravel ada di file database.php, untuk konfigurasi mailing ada di file mail.php,
+konfigurasi aplikasi ada dalam folder app.php dan pengaturan-pengaturan lainnya  yang ada di dalam directory tersebut. 

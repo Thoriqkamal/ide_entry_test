@@ -1,0 +1,1 @@
+ SELECT COUNT(inaugurated_date) AS count_inaugurated_date, school_name FROM school GROUP BY inaugurated_date HAVING COUNT(inaugurated_date) > 1;

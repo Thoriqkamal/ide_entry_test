@@ -1,0 +1,2 @@
+koneksi database pertama disimpan di dalam file .env
+koneksi databse kedua di konfigurasi di directory config/databse.php
