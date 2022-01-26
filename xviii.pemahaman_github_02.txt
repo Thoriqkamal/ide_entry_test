@@ -1,0 +1,18 @@
+1. Pilih dan copy repository yang akan di pull request
+2. Fork repository dengan menavigasi browser ke URL contohnya https://github.com/username/repository
+3. Pada akun github klik pojok kanan atas halaman untuk melakukan Fork Repository
+4. Clone repository , dapat menggunakan git clone bersama dengan URL yang telah di fork sebelumnya contohnya git clone https://github.com/your-username/repository.git
+5. Create new branch , dengan perintah cd repository , lalu ketik perintah git branch new-branch
+6. Ketik perintah git checkout new-branch
+7. Untuk lebih singkat nya bisa ketik git checkout -b new-branch
+8. Ketik perintah git add filename.md
+9. Berikan nama poetry.md untuk menambahkannya ke repositori lokal dengan perintah git add poetry.md
+10. Lakukan commit dengan perintah git commit -m "add my-name poetry.md file"
+11. Jalankan git add untuk menambahkan file baru ke repository git add more-poetry.md
+12. git push origin <nama-branch-baru-yang-telah-dibuat>
+13. Update local repository dengan perintah git remote -v
+14. Tentukan repository dengan perintah git remote add upstream https://github.com/original-owner-username/original-repository.git
+15. Switch local main branch dari repository dengan perintah git checkout main
+16. Gabungkan semua perubahan yang dibuat di repository asli dengan perintah git merge upstream/main
+17. Buka kembali repository Github di browser lalu klik tombol Compare & pull request
+18. Klik tombol klik Create pull request

@@ -1,0 +1,8 @@
+1. Copy seluruh file ke dalam repository 'ide_entry_test'
+2. Open repository 'ide_entry_test' di command line atau visual studio code , lalu open terminal
+3. Lalu ketik git init
+4. Ketik git add .
+5. Ketik git commit -m "Hasil Test"
+6. Ketik git branch -M main
+7. Ketik git remote add origin https://github.com/Thoriqkamal/ide_entry_test.git
+8. Ketik git push -u origin main
